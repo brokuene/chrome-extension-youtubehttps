@@ -1,0 +1,27 @@
+body {
+	font-family: Verdana, Arial;
+	font-size: small;
+	width: 400px;
+}
+h3 {
+	margin-top: 0;
+	margin-bottom: 0.7em
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+}
+#runAsDiv {
+	font-size: x-small;
+}
+#optionsSavedState {
+	font-size: x-small;
+	float: right;
+}
+.unsaved {
+	color: red;
+}
+#optionsButtons {
+	margin-top : 0.5em
+}

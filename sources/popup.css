@@ -1,0 +1,28 @@
+body {
+	min-width: 350px;
+    overflow-x: hidden;
+	font-family: Verdana, Arial;
+	font-size: small;
+}
+#replaces {
+	font-size: x-small;
+	color : red;
+	font-weight : bold;
+	margin-top: 0.7em;
+}
+
+#replaces  a {
+	font-weight : normal;
+}
+h3 {
+	margin-top: 0;
+	margin-bottom: 0.7em
+}
+#autorunbtn {
+	margin-top: 0.7em;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+}
