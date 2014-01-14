@@ -11,13 +11,10 @@ Features
 <div align="center">
   <img src="https://github.com/brokuene/chrome-extension-youtubehttps/raw/master/readme_images/pageAction.png" alt="Page action screenshoot"/>
 </div>
-Clicking it will trigger replacement of all youtube embedded videos at current page to go via https protocol. Also a popup with summary will be displayed.
+Clicking it will trigger replacement of all youtube embedded videos at current page to go via https protocol. Also a popup with summary will be displayed. It is possible to see what was changed by clicking on changed frames counter.
+See example below, it was run at network where administrator blocked connections to `http://www.youtube.com*` but not to `https://www.youtube.com*`.
 <div align="center">
-  <img src="https://github.com/brokuene/chrome-extension-youtubehttps/raw/master/readme_images/pageConverted.png" alt="Page with popup"/>
-</div>
-It is possible to see what was changed by clicking on changed frames counter.
-<div align="center">
-  <img src="https://github.com/brokuene/chrome-extension-youtubehttps/raw/master/readme_images/expandedPopup.png" alt="Popup expanded"/>
+  <img src="https://github.com/brokuene/chrome-extension-youtubehttps/raw/master/readme_images/youtubereplacer_example.gif" alt="Extension work presented on animated image"/>
 </div>
 
 * With option "Auto run on every page" at popup, you don't have to click page action on every single page. Process will start automatically always after any **http** page is loaded.
