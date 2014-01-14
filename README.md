@@ -35,3 +35,7 @@ Developer info
 Extension uses content scripts injected to every **http** page. Content script finds all iframes on page and changes with reqular expression a source link. Content script also subscribes `DOMNodeInserted` event to support functionality on dynamically changing pages.
 Content scripts are injected by background page. The background page listens for replaced iframes and collect this information. A communication is done with `chrome.runtime.onMessage` and `chrome.runtime.sendMessage` API.
 The proxy option is done without content scripts and without knowing about any html or DOM. The `chrome.webRequest.onBeforeRequest` event allows to deal with request before it is sent.
+
+License
+------------------
+Copyright 2014 brokuene (brokuene at gmail dot com) under the [Apache License, Version 2.0](https://raw2.github.com/brokuene/chrome-extension-youtubehttps/master/LICENSE.txt)
